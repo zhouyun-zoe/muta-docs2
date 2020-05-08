@@ -2,10 +2,10 @@ module.exports = {
   title: 'Muta',
   tagline: 'Build your own blockchain,today',
   url: 'https://zhouyun-zoe.github.io',
-  baseUrl: '/',
+  baseUrl: '/muta-docs2/',
   favicon: 'img/muta-logo.png',
-  organizationName: 'NervosNetwork', // Usually your GitHub org/user name.
-  projectName: 'muta', // Usually your repo name.
+  organizationName: 'zhouyun-zoe', // Usually your GitHub org/user name.
+  projectName: 'muta-docs2', // Usually your repo name.
   customFields: {
     description:
       'Muta is a highly customizable high-performance blockchain framework.',
