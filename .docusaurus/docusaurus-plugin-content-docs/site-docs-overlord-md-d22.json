@@ -1,0 +1,17 @@
+{
+  "id": "overlord",
+  "title": "Overlord 架构设计",
+  "description": "- [目标](#目标)",
+  "source": "@site/docs/overlord.md",
+  "permalink": "/muta-docs2/docs/overlord",
+  "editUrl": "https://github.com/nervosnetwork/muta-docs/docs/overlord.md",
+  "sidebar": "docs",
+  "previous": {
+    "title": "Mempool",
+    "permalink": "/muta-docs2/docs/transaction_pool"
+  },
+  "next": {
+    "title": "网络设计",
+    "permalink": "/muta-docs2/docs/network"
+  }
+}

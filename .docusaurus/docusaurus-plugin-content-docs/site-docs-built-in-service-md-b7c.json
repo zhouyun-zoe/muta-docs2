@@ -1,0 +1,17 @@
+{
+  "id": "built_in_service",
+  "title": "内置 Service 说明",
+  "description": "## 概述",
+  "source": "@site/docs/built_in_service.md",
+  "permalink": "/muta-docs2/docs/built_in_service",
+  "editUrl": "https://github.com/nervosnetwork/muta-docs/docs/built_in_service.md",
+  "sidebar": "docs",
+  "previous": {
+    "title": "Service 示例",
+    "permalink": "/muta-docs2/docs/service_eg"
+  },
+  "next": {
+    "title": "Tutorial：使用 Muta 框架从零开发一条 Dex 专有链",
+    "permalink": "/muta-docs2/docs/dex"
+  }
+}

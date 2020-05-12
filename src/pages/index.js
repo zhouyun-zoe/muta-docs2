@@ -9,32 +9,33 @@ import Image from '@theme/IdealImage';
 
 const features = [
   {
-    title: <>Easy to Use</>,
-    imageUrl: 'img/undraw_docusaurus_mountain.svg',
-    description: (
-      <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
-      </>
-    ),
-  },
-  {
-    title: <>Focus on What Matters</>,
+    title: <>High performance</>,
     imageUrl: 'img/undraw_docusaurus_tree.svg',
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Overlord is a Byzantine fault tolerance (BFT) consensus algorithm 
+        aiming to support thousands of transactions per second under hundreds of consensus nodes, 
+        with transaction delays of no more than a few seconds
       </>
     ),
   },
   {
-    title: <>Powered by React</>,
-    imageUrl: 'img/undraw_docusaurus_react.svg',
+    title: <>Highly Customizable </>,
+    imageUrl: 'img/undraw_docusaurus_tree.svg',
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Developers can customize PoA, PoS or DPoS chains or develop application-specific based on Muta, 
+        and use different economic models and governance models to implement a specific business logic
+      </>
+    ),
+  },
+  {
+    title: <>Interoperability</>,
+    imageUrl: 'img/undraw_docusaurus_tree.svg',
+    description: (
+      <>
+        The interoperability with CKB and other Muta chains is a built-in feature, 
+        allowing every Muta powered chain to interact with each other while utilizing the high security and finality of the PoW CKB base layer
       </>
     ),
   },
@@ -81,13 +82,13 @@ function Home() {
             <div className={styles.indexCtas}>
               <Link
                 className={styles.indexCtasGetStartedButton}
-                to={useBaseUrl('docs/doc1')}>
+                to={useBaseUrl('docs/intro')}>
                 Get Started
               </Link>
               <span className={styles.indexCtasGitHubButtonWrapper}>
                 <iframe
                   className={styles.indexCtasGitHubButton}
-                  src="https://ghbtns.com/github-btn.html?user=facebook&amp;repo=docusaurus&amp;type=star&amp;count=true&amp;size=large"
+                  src="https://ghbtns.com/github-btn.html?user=nervosnetwork&amp;repo=muta&amp;type=star&amp;count=true&amp;size=large"
                   width={160}
                   height={30}
                   title="GitHub Stars"
@@ -99,11 +100,7 @@ function Home() {
         <div
           className={classnames(styles.announcement, styles.announcementDark)}>
           <div className={styles.announcementInner}>
-            Coming from v1? Check out our{' '}
-            <Link to={useBaseUrl('/docs/migrating-from-v1-to-v2')}>
               Why Muta？
-            </Link>
-            .
           </div>
         </div>
 

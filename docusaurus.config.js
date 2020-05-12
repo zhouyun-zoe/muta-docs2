@@ -38,9 +38,9 @@ module.exports = {
         },
         {to: 'blog', label: 'Blog', position: 'left'},
         {to: 'showcase', label: 'Showcase', position: 'left'},
-        {to: 'docs/support', label: 'Community', position: 'left'},
+        {to: 'docs/support', label: 'Support', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/nervosnetwork/muta',
           label: 'GitHub',
           position: 'right',
         },

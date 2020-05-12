@@ -1,12 +1,12 @@
 const users = [
     // Please add in alphabetical order of title.
     {
-      title: 'Algolia Docsearch',
+      title: 'Huobi Chain',
       description:
-        'The best search experience for docs, integrates in minutes, for free',
-      preview: require('./showcase/muta.png'),
-      website: 'https://docsearch.algolia.com/',
-      source: 'https://github.com/algolia/docsearch-website',
+        'The next generation high performance public chain for financial infrastructure',
+      preview: require('./showcase/r-huobichain.jpeg'),
+      website: 'https://www.huobichain.com/',
+      source: 'https://github.com/HuobiGroup/huobi-chain/',
       fbOpenSource: false,
       pinned: false,
     },

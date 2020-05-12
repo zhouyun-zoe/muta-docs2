@@ -983,20 +983,18 @@
     stringify-object "^3.3.0"
     unist-util-visit "^2.0.2"
 
-"@docusaurus/plugin-content-blog@^2.0.0-alpha.54":
-  version "2.0.0-alpha.54"
-  resolved "https://registry.yarnpkg.com/@docusaurus/plugin-content-blog/-/plugin-content-blog-2.0.0-alpha.54.tgz#2eb091706bcda571c1de52a246aeae9d7eeb8471"
-  integrity sha512-6PzsdW1Yo6+C5G02VPlnBrjmGQc98F2xDH9JYP+I26DYzxTs452b6kjzAujvEmHJD40efGhUhS/u8lfJoF3z7A==
+"@docusaurus/plugin-content-blog@^2.0.0-alpha.48":
+  version "2.0.0-alpha.48"
+  resolved "https://registry.yarnpkg.com/@docusaurus/plugin-content-blog/-/plugin-content-blog-2.0.0-alpha.48.tgz#b90e023ba7969ca9fdf32a032f62ae58c46eedfb"
+  integrity sha512-+LdDTkySBO1FdPqJflUgY/OLi7444WtegIL60Wfz3v9QLJmqmcjyQ55USmICBtMO7a+y4HU4l8eT8cavVdAuoQ==
   dependencies:
-    "@docusaurus/mdx-loader" "^2.0.0-alpha.54"
-    "@docusaurus/utils" "^2.0.0-alpha.54"
-    feed "^4.1.0"
+    "@docusaurus/mdx-loader" "^2.0.0-alpha.48"
+    "@docusaurus/utils" "^2.0.0-alpha.48"
+    feed "^4.0.0"
     fs-extra "^8.1.0"
     globby "^10.0.1"
     loader-utils "^1.2.3"
-    lodash.kebabcase "^4.1.1"
-    reading-time "^1.2.0"
-    remark-admonitions "^1.2.1"
+    lodash "^4.17.15"
 
 "@docusaurus/plugin-content-docs@^2.0.0-alpha.54":
   version "2.0.0-alpha.54"

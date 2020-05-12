@@ -1,0 +1,16 @@
+{
+  "consensus": {
+    "allTagsPath": "/muta-docs2/blog/tags",
+    "slug": "consensus",
+    "name": "consensus",
+    "count": 1,
+    "permalink": "/muta-docs2/blog/tags/consensus"
+  },
+  "overlord": {
+    "allTagsPath": "/muta-docs2/blog/tags",
+    "slug": "overlord",
+    "name": "overlord",
+    "count": 1,
+    "permalink": "/muta-docs2/blog/tags/overlord"
+  }
+}

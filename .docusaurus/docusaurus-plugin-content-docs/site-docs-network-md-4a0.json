@@ -1,0 +1,17 @@
+{
+  "id": "network",
+  "title": "网络设计",
+  "description": "## 当前目标",
+  "source": "@site/docs/network.md",
+  "permalink": "/muta-docs2/docs/network",
+  "editUrl": "https://github.com/nervosnetwork/muta-docs/docs/network.md",
+  "sidebar": "docs",
+  "previous": {
+    "title": "Overlord 架构设计",
+    "permalink": "/muta-docs2/docs/overlord"
+  },
+  "next": {
+    "title": "存储设计",
+    "permalink": "/muta-docs2/docs/storage"
+  }
+}

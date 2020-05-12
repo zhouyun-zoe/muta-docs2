@@ -1,0 +1,17 @@
+{
+  "id": "service_eg",
+  "title": "Service 示例",
+  "description": "## 概述",
+  "source": "@site/docs/service_eg.md",
+  "permalink": "/muta-docs2/docs/service_eg",
+  "editUrl": "https://github.com/nervosnetwork/muta-docs/docs/service_eg.md",
+  "sidebar": "docs",
+  "previous": {
+    "title": "Service 开发指南",
+    "permalink": "/muta-docs2/docs/service_dev"
+  },
+  "next": {
+    "title": "内置 Service 说明",
+    "permalink": "/muta-docs2/docs/built_in_service"
+  }
+}

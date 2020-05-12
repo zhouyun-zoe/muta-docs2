@@ -1,0 +1,17 @@
+{
+  "id": "service_dev",
+  "title": "Service 开发指南",
+  "description": "## 概念",
+  "source": "@site/docs/service_dev.md",
+  "permalink": "/muta-docs2/docs/service_dev",
+  "editUrl": "https://github.com/nervosnetwork/muta-docs/docs/service_dev.md",
+  "sidebar": "docs",
+  "previous": {
+    "title": "密码学",
+    "permalink": "/muta-docs2/docs/crypto"
+  },
+  "next": {
+    "title": "Service 示例",
+    "permalink": "/muta-docs2/docs/service_eg"
+  }
+}

@@ -11,8 +11,10 @@ module.exports = {
     常见问题: ['faq'],
     贡献说明: ['contribute']
   },
-community: [
+support: [
   'support',
   'team',
+  'roadmap',
+  'resources',
 ],
 };
