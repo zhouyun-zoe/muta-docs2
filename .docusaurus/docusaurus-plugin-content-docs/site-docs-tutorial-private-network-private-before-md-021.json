@@ -1,0 +1,17 @@
+{
+  "id": "tutorial/private-network/private-before",
+  "title": "Before We Start the Tutorial",
+  "description": "In this tutorial we will learn and practice how to start a blockchain network with a validator/authority set of your choosing using Muta.",
+  "source": "@site/docs/tutorial/private-network/private-before.md",
+  "permalink": "/muta-docs2/docs/tutorial/private-network/private-before",
+  "editUrl": "https://github.com/nervosnetwork/muta-docs/docs/tutorial/private-network/private-before.md",
+  "sidebar": "tutorial",
+  "previous": {
+    "title": "Interact with your node",
+    "permalink": "/muta-docs2/docs/tutorial/first-chain/interact"
+  },
+  "next": {
+    "title": "Generate Keypairs",
+    "permalink": "/muta-docs2/docs/tutorial/private-network/private-key"
+  }
+}

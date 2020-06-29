@@ -1,0 +1,17 @@
+{
+  "id": "tutorial/first-chain/setup",
+  "title": "Set up your computer",
+  "description": "To develop on Muta, your computer needs some prerequisites to establish a working development environment.",
+  "source": "@site/docs/tutorial/first-chain/setup.md",
+  "permalink": "/muta-docs2/docs/tutorial/first-chain/setup",
+  "editUrl": "https://github.com/nervosnetwork/muta-docs/docs/tutorial/first-chain/setup.md",
+  "sidebar": "tutorial",
+  "previous": {
+    "title": "Before We Start the Tutorial",
+    "permalink": "/muta-docs2/docs/tutorial/first-chain/before-create"
+  },
+  "next": {
+    "title": "Compile and Run the Node",
+    "permalink": "/muta-docs2/docs/tutorial/first-chain/compile-run"
+  }
+}

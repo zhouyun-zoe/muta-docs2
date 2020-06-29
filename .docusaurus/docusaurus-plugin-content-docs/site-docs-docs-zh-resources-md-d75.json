@@ -1,0 +1,13 @@
+{
+  "id": "docs_zh/resources",
+  "title": "Awesome Resources",
+  "description": "on the way",
+  "source": "@site/docs/docs_zh/resources.md",
+  "permalink": "/muta-docs2/docs/docs_zh/resources",
+  "editUrl": "https://github.com/nervosnetwork/muta-docs/docs/docs_zh/resources.md",
+  "sidebar": "support",
+  "previous": {
+    "title": "Roadmap",
+    "permalink": "/muta-docs2/docs/docs_zh/roadmap"
+  }
+}

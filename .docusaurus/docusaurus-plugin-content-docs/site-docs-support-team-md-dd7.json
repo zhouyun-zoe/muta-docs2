@@ -1,0 +1,17 @@
+{
+  "id": "support/team",
+  "title": "Team",
+  "description": "on the way",
+  "source": "@site/docs/support/team.md",
+  "permalink": "/muta-docs2/docs/support/team",
+  "editUrl": "https://github.com/nervosnetwork/muta-docs/docs/support/team.md",
+  "sidebar": "support",
+  "previous": {
+    "title": "Support",
+    "permalink": "/muta-docs2/docs/support/support"
+  },
+  "next": {
+    "title": "Roadmap",
+    "permalink": "/muta-docs2/docs/support/roadmap"
+  }
+}

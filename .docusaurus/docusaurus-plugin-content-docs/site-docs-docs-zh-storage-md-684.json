@@ -1,0 +1,17 @@
+{
+  "id": "docs_zh/storage",
+  "title": "存储设计",
+  "description": "# 存储设计",
+  "source": "@site/docs/docs_zh/storage.md",
+  "permalink": "/muta-docs2/docs/docs_zh/storage",
+  "editUrl": "https://github.com/nervosnetwork/muta-docs/docs/docs_zh/storage.md",
+  "sidebar": "docs",
+  "previous": {
+    "title": "网络设计",
+    "permalink": "/muta-docs2/docs/docs_zh/network"
+  },
+  "next": {
+    "title": "密码学",
+    "permalink": "/muta-docs2/docs/docs_zh/crypto"
+  }
+}

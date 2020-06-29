@@ -37,9 +37,6 @@
     ],
     "metadata": "metadata---muta-docs-2-blog-tags-overlord-997-51c"
   },
-  "/muta-docs2/index1": {
-    "component": "component---site-src-pages-index-1-jsa-75-378"
-  },
   "/muta-docs2/showcase/": {
     "component": "component---site-src-pages-showcase-index-js-2-a-6-874"
   },
@@ -47,108 +44,140 @@
     "component": "component---theme-doc-page-1-be-9be",
     "docsMetadata": "docsMetadata---muta-docs-2-docs-route-78-a-533"
   },
-  "/muta-docs2/docs/arch": {
+  "/muta-docs2/docs/docs_en/intro": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---muta-docs-2-docs-arch-99-f-041"
+    "content": "content---muta-docs-2-docs-docs-en-intro-728-79f"
   },
-  "/muta-docs2/docs/built_in_service": {
+  "/muta-docs2/docs/docs_zh/arch": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---muta-docs-2-docs-built-in-serviceb-7-c-c99"
+    "content": "content---muta-docs-2-docs-docs-zh-arch-2-f-3-61e"
   },
-  "/muta-docs2/docs/config": {
+  "/muta-docs2/docs/docs_zh/built_in_service": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---muta-docs-2-docs-config-922-ba3"
+    "content": "content---muta-docs-2-docs-docs-zh-built-in-service-315-384"
   },
-  "/muta-docs2/docs/contribute": {
+  "/muta-docs2/docs/docs_zh/concept": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---muta-docs-2-docs-contribute-4-ba-cab"
+    "content": "content---muta-docs-2-docs-docs-zh-concepta-62-f65"
   },
-  "/muta-docs2/docs/crypto": {
+  "/muta-docs2/docs/docs_zh/config": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---muta-docs-2-docs-crypto-735-9dd"
+    "content": "content---muta-docs-2-docs-docs-zh-configec-3-e01"
   },
-  "/muta-docs2/docs/dex": {
+  "/muta-docs2/docs/docs_zh/contribute": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---muta-docs-2-docs-dex-75-b-c0e"
+    "content": "content---muta-docs-2-docs-docs-zh-contribute-1-c-4-d77"
   },
-  "/muta-docs2/docs/doc1": {
+  "/muta-docs2/docs/docs_zh/crypto": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---muta-docs-2-docs-doc-1-b-2-f-72e"
+    "content": "content---muta-docs-2-docs-docs-zh-cryptod-75-d71"
   },
-  "/muta-docs2/docs/doc2": {
+  "/muta-docs2/docs/docs_zh/dev_overview": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---muta-docs-2-docs-doc-2-df-3-365"
+    "content": "content---muta-docs-2-docs-docs-zh-dev-overview-3-ad-84d"
   },
-  "/muta-docs2/docs/doc3": {
+  "/muta-docs2/docs/docs_zh/dex": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---muta-docs-2-docs-doc-3616-fbb"
+    "content": "content---muta-docs-2-docs-docs-zh-dex-5-d-0-01a"
   },
-  "/muta-docs2/docs/faq": {
+  "/muta-docs2/docs/docs_zh/faq": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---muta-docs-2-docs-faq-048-b00"
+    "content": "content---muta-docs-2-docs-docs-zh-faqe-92-a0b"
   },
-  "/muta-docs2/docs/getting_started": {
+  "/muta-docs2/docs/docs_zh/getting_started": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---muta-docs-2-docs-getting-started-92-b-5c1"
+    "content": "content---muta-docs-2-docs-docs-zh-getting-startedf-32-371"
   },
-  "/muta-docs2/docs/graphql": {
+  "/muta-docs2/docs/docs_zh/graphql": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---muta-docs-2-docs-graphql-055-e04"
+    "content": "content---muta-docs-2-docs-docs-zh-graphqlc-45-d88"
   },
-  "/muta-docs2/docs/intro": {
+  "/muta-docs2/docs/docs_zh/intro": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---muta-docs-2-docs-intro-0-e-3-bff"
+    "content": "content---muta-docs-2-docs-docs-zh-introc-45-906"
   },
-  "/muta-docs2/docs/js_sdk": {
+  "/muta-docs2/docs/docs_zh/js_sdk": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---muta-docs-2-docs-js-sdkbba-68d"
+    "content": "content---muta-docs-2-docs-docs-zh-js-sdk-69-e-78b"
   },
-  "/muta-docs2/docs/mdx": {
+  "/muta-docs2/docs/docs_zh/mdx": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---muta-docs-2-docs-mdxce-3-ee7"
+    "content": "content---muta-docs-2-docs-docs-zh-mdx-47-e-739"
   },
-  "/muta-docs2/docs/multi_node_deploy": {
+  "/muta-docs2/docs/docs_zh/multi_node_deploy": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---muta-docs-2-docs-multi-node-deployb-8-b-650"
+    "content": "content---muta-docs-2-docs-docs-zh-multi-node-deploy-621-424"
   },
-  "/muta-docs2/docs/network": {
+  "/muta-docs2/docs/docs_zh/network": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---muta-docs-2-docs-network-4-a-0-3c6"
+    "content": "content---muta-docs-2-docs-docs-zh-network-2-bc-c60"
   },
-  "/muta-docs2/docs/overlord": {
+  "/muta-docs2/docs/docs_zh/overlord": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---muta-docs-2-docs-overlordd-22-d87"
+    "content": "content---muta-docs-2-docs-docs-zh-overlordacb-c45"
   },
-  "/muta-docs2/docs/resources": {
+  "/muta-docs2/docs/docs_zh/service_dev": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---muta-docs-2-docs-resourcesd-92-f74"
+    "content": "content---muta-docs-2-docs-docs-zh-service-devba-2-c7b"
   },
-  "/muta-docs2/docs/roadmap": {
+  "/muta-docs2/docs/docs_zh/service_eg": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---muta-docs-2-docs-roadmap-0-df-d01"
+    "content": "content---muta-docs-2-docs-docs-zh-service-eg-05-a-835"
   },
-  "/muta-docs2/docs/service_dev": {
+  "/muta-docs2/docs/docs_zh/storage": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---muta-docs-2-docs-service-dev-660-f8e"
+    "content": "content---muta-docs-2-docs-docs-zh-storage-684-302"
   },
-  "/muta-docs2/docs/service_eg": {
+  "/muta-docs2/docs/docs_zh/transaction_pool": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---muta-docs-2-docs-service-eg-824-07d"
+    "content": "content---muta-docs-2-docs-docs-zh-transaction-pool-0-d-4-122"
   },
-  "/muta-docs2/docs/storage": {
+  "/muta-docs2/docs/support/resources": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---muta-docs-2-docs-storage-417-ddc"
+    "content": "content---muta-docs-2-docs-support-resources-3-cf-a06"
   },
-  "/muta-docs2/docs/support": {
+  "/muta-docs2/docs/support/roadmap": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---muta-docs-2-docs-supportd-9-e-4ab"
+    "content": "content---muta-docs-2-docs-support-roadmap-156-545"
   },
-  "/muta-docs2/docs/team": {
+  "/muta-docs2/docs/support/support": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---muta-docs-2-docs-team-227-55d"
+    "content": "content---muta-docs-2-docs-support-supportc-58-208"
   },
-  "/muta-docs2/docs/transaction_pool": {
+  "/muta-docs2/docs/support/team": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---muta-docs-2-docs-transaction-pooleb-0-a53"
+    "content": "content---muta-docs-2-docs-support-teamdd-7-ebd"
+  },
+  "/muta-docs2/docs/tutorial/first-chain/before-create": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---muta-docs-2-docs-tutorial-first-chain-before-createbe-2-b38"
+  },
+  "/muta-docs2/docs/tutorial/first-chain/compile-run": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---muta-docs-2-docs-tutorial-first-chain-compile-run-915-954"
+  },
+  "/muta-docs2/docs/tutorial/first-chain/interact": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---muta-docs-2-docs-tutorial-first-chain-interactfb-2-c13"
+  },
+  "/muta-docs2/docs/tutorial/first-chain/setup": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---muta-docs-2-docs-tutorial-first-chain-setup-6-df-c0a"
+  },
+  "/muta-docs2/docs/tutorial/private-network/private-before": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---muta-docs-2-docs-tutorial-private-network-private-before-021-ff3"
+  },
+  "/muta-docs2/docs/tutorial/private-network/private-config": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---muta-docs-2-docs-tutorial-private-network-private-configb-2-b-003"
+  },
+  "/muta-docs2/docs/tutorial/private-network/private-key": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---muta-docs-2-docs-tutorial-private-network-private-key-9-de-7b9"
+  },
+  "/muta-docs2/docs/tutorial/private-network/private-run": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---muta-docs-2-docs-tutorial-private-network-private-runee-9-a0c"
   }
 }

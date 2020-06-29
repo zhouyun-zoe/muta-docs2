@@ -1,0 +1,17 @@
+{
+  "id": "tutorial/private-network/private-key",
+  "title": "Generate Keypairs",
+  "description": "##",
+  "source": "@site/docs/tutorial/private-network/private-key.md",
+  "permalink": "/muta-docs2/docs/tutorial/private-network/private-key",
+  "editUrl": "https://github.com/nervosnetwork/muta-docs/docs/tutorial/private-network/private-key.md",
+  "sidebar": "tutorial",
+  "previous": {
+    "title": "Before We Start the Tutorial",
+    "permalink": "/muta-docs2/docs/tutorial/private-network/private-before"
+  },
+  "next": {
+    "title": "Configuration",
+    "permalink": "/muta-docs2/docs/tutorial/private-network/private-config"
+  }
+}

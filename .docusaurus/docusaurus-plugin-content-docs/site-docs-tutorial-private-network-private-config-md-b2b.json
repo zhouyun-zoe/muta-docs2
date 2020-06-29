@@ -1,0 +1,17 @@
+{
+  "id": "tutorial/private-network/private-config",
+  "title": "Configuration",
+  "description": "@##",
+  "source": "@site/docs/tutorial/private-network/private-config.md",
+  "permalink": "/muta-docs2/docs/tutorial/private-network/private-config",
+  "editUrl": "https://github.com/nervosnetwork/muta-docs/docs/tutorial/private-network/private-config.md",
+  "sidebar": "tutorial",
+  "previous": {
+    "title": "Generate Keypairs",
+    "permalink": "/muta-docs2/docs/tutorial/private-network/private-key"
+  },
+  "next": {
+    "title": "Run Your Private Network",
+    "permalink": "/muta-docs2/docs/tutorial/private-network/private-run"
+  }
+}

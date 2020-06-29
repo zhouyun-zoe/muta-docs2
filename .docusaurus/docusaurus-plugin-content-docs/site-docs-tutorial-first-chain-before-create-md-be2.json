@@ -1,0 +1,13 @@
+{
+  "id": "tutorial/first-chain/before-create",
+  "title": "Before We Start the Tutorial",
+  "description": "In this tutorial, you will learn to compile and run a Muta chain with default configuration, and interact with it using a client tool. We will not be going into depth about the intricacies of developing on Muta, but will hopefully satisfy your curiosity so that you will continue this journey. This tutorial should take you about 1 hour to complete.",
+  "source": "@site/docs/tutorial/first-chain/before-create.md",
+  "permalink": "/muta-docs2/docs/tutorial/first-chain/before-create",
+  "editUrl": "https://github.com/nervosnetwork/muta-docs/docs/tutorial/first-chain/before-create.md",
+  "sidebar": "tutorial",
+  "next": {
+    "title": "Set up your computer",
+    "permalink": "/muta-docs2/docs/tutorial/first-chain/setup"
+  }
+}

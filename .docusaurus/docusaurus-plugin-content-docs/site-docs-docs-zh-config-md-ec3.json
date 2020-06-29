@@ -1,0 +1,17 @@
+{
+  "id": "docs_zh/config",
+  "title": "配置说明",
+  "description": "默认的创世块和配置样例在 `devtools/chain/` 文件夹中，此处对其中的一些字段进行说明。",
+  "source": "@site/docs/docs_zh/config.md",
+  "permalink": "/muta-docs2/docs/docs_zh/config",
+  "editUrl": "https://github.com/nervosnetwork/muta-docs/docs/docs_zh/config.md",
+  "sidebar": "docs",
+  "previous": {
+    "title": "快速入门",
+    "permalink": "/muta-docs2/docs/docs_zh/getting_started"
+  },
+  "next": {
+    "title": "多节点部署指南",
+    "permalink": "/muta-docs2/docs/docs_zh/multi_node_deploy"
+  }
+}

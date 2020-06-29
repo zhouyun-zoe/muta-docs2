@@ -1,0 +1,9 @@
+{
+  "id": "tutorial/setup",
+  "title": "Set up your computer",
+  "description": "To develop on Muta, your computer needs some prerequisites to establish a working development environment.",
+  "source": "@site/docs/tutorial/setup.md",
+  "permalink": "/muta-docs2/docs/tutorial/setup",
+  "editUrl": "https://github.com/nervosnetwork/muta-docs/docs/tutorial/setup.md",
+  "sidebar": "tutorial"
+}

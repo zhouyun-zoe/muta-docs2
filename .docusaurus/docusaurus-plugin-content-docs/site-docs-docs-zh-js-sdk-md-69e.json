@@ -1,0 +1,17 @@
+{
+  "id": "docs_zh/js_sdk",
+  "title": "JS-SDK",
+  "description": "# JS-SDK",
+  "source": "@site/docs/docs_zh/js_sdk.md",
+  "permalink": "/muta-docs2/docs/docs_zh/js_sdk",
+  "editUrl": "https://github.com/nervosnetwork/muta-docs/docs/docs_zh/js_sdk.md",
+  "sidebar": "docs",
+  "previous": {
+    "title": "GraphQL",
+    "permalink": "/muta-docs2/docs/docs_zh/graphql"
+  },
+  "next": {
+    "title": "FAQ",
+    "permalink": "/muta-docs2/docs/docs_zh/faq"
+  }
+}

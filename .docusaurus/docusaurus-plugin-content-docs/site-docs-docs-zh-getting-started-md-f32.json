@@ -1,0 +1,17 @@
+{
+  "id": "docs_zh/getting_started",
+  "title": "快速入门",
+  "description": "## 安装和运行",
+  "source": "@site/docs/docs_zh/getting_started.md",
+  "permalink": "/muta-docs2/docs/docs_zh/getting_started",
+  "editUrl": "https://github.com/nervosnetwork/muta-docs/docs/docs_zh/getting_started.md",
+  "sidebar": "docs",
+  "previous": {
+    "title": "关键概念",
+    "permalink": "/muta-docs2/docs/docs_zh/concept"
+  },
+  "next": {
+    "title": "配置说明",
+    "permalink": "/muta-docs2/docs/docs_zh/config"
+  }
+}

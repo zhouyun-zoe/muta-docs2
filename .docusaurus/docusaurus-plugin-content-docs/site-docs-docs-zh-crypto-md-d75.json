@@ -1,0 +1,17 @@
+{
+  "id": "docs_zh/crypto",
+  "title": "密码学",
+  "description": "## Muta 中使用到的密码学算法",
+  "source": "@site/docs/docs_zh/crypto.md",
+  "permalink": "/muta-docs2/docs/docs_zh/crypto",
+  "editUrl": "https://github.com/nervosnetwork/muta-docs/docs/docs_zh/crypto.md",
+  "sidebar": "docs",
+  "previous": {
+    "title": "存储设计",
+    "permalink": "/muta-docs2/docs/docs_zh/storage"
+  },
+  "next": {
+    "title": "GraphQL",
+    "permalink": "/muta-docs2/docs/docs_zh/graphql"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "docs_zh/service_dev",
+  "title": "Service 开发指南",
+  "description": "## 概念",
+  "source": "@site/docs/docs_zh/service_dev.md",
+  "permalink": "/muta-docs2/docs/docs_zh/service_dev",
+  "editUrl": "https://github.com/nervosnetwork/muta-docs/docs/docs_zh/service_dev.md",
+  "sidebar": "docs",
+  "previous": {
+    "title": "开发概览",
+    "permalink": "/muta-docs2/docs/docs_zh/dev_overview"
+  },
+  "next": {
+    "title": "Tutorial：使用 Muta 框架从零开发一条 Dex 专有链",
+    "permalink": "/muta-docs2/docs/docs_zh/dex"
+  }
+}

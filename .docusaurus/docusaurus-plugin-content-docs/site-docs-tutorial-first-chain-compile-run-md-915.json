@@ -1,0 +1,17 @@
+{
+  "id": "tutorial/first-chain/compile-run",
+  "title": "Compile and Run the Node",
+  "description": "Once the prerequisites are installed, you can start to build your Muta Chain.",
+  "source": "@site/docs/tutorial/first-chain/compile-run.md",
+  "permalink": "/muta-docs2/docs/tutorial/first-chain/compile-run",
+  "editUrl": "https://github.com/nervosnetwork/muta-docs/docs/tutorial/first-chain/compile-run.md",
+  "sidebar": "tutorial",
+  "previous": {
+    "title": "Set up your computer",
+    "permalink": "/muta-docs2/docs/tutorial/first-chain/setup"
+  },
+  "next": {
+    "title": "Interact with your node",
+    "permalink": "/muta-docs2/docs/tutorial/first-chain/interact"
+  }
+}

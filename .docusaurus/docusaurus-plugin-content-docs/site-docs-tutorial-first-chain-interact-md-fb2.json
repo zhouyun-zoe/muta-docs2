@@ -1,0 +1,17 @@
+{
+  "id": "tutorial/first-chain/interact",
+  "title": "Interact with your node",
+  "description": "## Interact using muta-cli",
+  "source": "@site/docs/tutorial/first-chain/interact.md",
+  "permalink": "/muta-docs2/docs/tutorial/first-chain/interact",
+  "editUrl": "https://github.com/nervosnetwork/muta-docs/docs/tutorial/first-chain/interact.md",
+  "sidebar": "tutorial",
+  "previous": {
+    "title": "Compile and Run the Node",
+    "permalink": "/muta-docs2/docs/tutorial/first-chain/compile-run"
+  },
+  "next": {
+    "title": "Before We Start the Tutorial",
+    "permalink": "/muta-docs2/docs/tutorial/private-network/private-before"
+  }
+}

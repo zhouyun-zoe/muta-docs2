@@ -8,97 +8,85 @@
           {
             "type": "link",
             "label": "介绍",
-            "href": "/muta-docs2/docs/intro"
+            "href": "/muta-docs2/docs/docs_zh/intro"
+          },
+          {
+            "type": "link",
+            "label": "关键概念",
+            "href": "/muta-docs2/docs/docs_zh/concept"
           }
         ]
       },
       {
         "type": "category",
-        "label": "快速开始",
+        "label": "安装与部署",
         "items": [
           {
             "type": "link",
             "label": "快速入门",
-            "href": "/muta-docs2/docs/getting_started"
+            "href": "/muta-docs2/docs/docs_zh/getting_started"
           },
           {
             "type": "link",
             "label": "配置说明",
-            "href": "/muta-docs2/docs/config"
+            "href": "/muta-docs2/docs/docs_zh/config"
           },
           {
             "type": "link",
             "label": "多节点部署指南",
-            "href": "/muta-docs2/docs/multi_node_deploy"
+            "href": "/muta-docs2/docs/docs_zh/multi_node_deploy"
           }
         ]
       },
       {
         "type": "category",
-        "label": "架构设计",
+        "label": "开发",
+        "items": [
+          {
+            "type": "link",
+            "label": "开发概览",
+            "href": "/muta-docs2/docs/docs_zh/dev_overview"
+          },
+          {
+            "type": "link",
+            "label": "Service 开发指南",
+            "href": "/muta-docs2/docs/docs_zh/service_dev"
+          },
+          {
+            "type": "link",
+            "label": "DEX 开发指南",
+            "href": "/muta-docs2/docs/docs_zh/dex"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "深入Muta",
         "items": [
           {
             "type": "link",
             "label": "Mempool",
-            "href": "/muta-docs2/docs/transaction_pool"
+            "href": "/muta-docs2/docs/docs_zh/transaction_pool"
           },
           {
             "type": "link",
             "label": "Overlord 架构设计",
-            "href": "/muta-docs2/docs/overlord"
+            "href": "/muta-docs2/docs/docs_zh/overlord"
           },
           {
             "type": "link",
             "label": "网络设计",
-            "href": "/muta-docs2/docs/network"
+            "href": "/muta-docs2/docs/docs_zh/network"
           },
           {
             "type": "link",
             "label": "存储设计",
-            "href": "/muta-docs2/docs/storage"
-          }
-        ]
-      },
-      {
-        "type": "category",
-        "label": "密码学",
-        "items": [
+            "href": "/muta-docs2/docs/docs_zh/storage"
+          },
           {
             "type": "link",
             "label": "密码学",
-            "href": "/muta-docs2/docs/crypto"
-          }
-        ]
-      },
-      {
-        "type": "category",
-        "label": "Service介绍",
-        "items": [
-          {
-            "type": "link",
-            "label": "Service 开发指南",
-            "href": "/muta-docs2/docs/service_dev"
-          },
-          {
-            "type": "link",
-            "label": "Service 示例",
-            "href": "/muta-docs2/docs/service_eg"
-          },
-          {
-            "type": "link",
-            "label": "内置 Service 说明",
-            "href": "/muta-docs2/docs/built_in_service"
-          }
-        ]
-      },
-      {
-        "type": "category",
-        "label": "开发指南",
-        "items": [
-          {
-            "type": "link",
-            "label": "DEX 开发指南",
-            "href": "/muta-docs2/docs/dex"
+            "href": "/muta-docs2/docs/docs_zh/crypto"
           }
         ]
       },
@@ -109,7 +97,7 @@
           {
             "type": "link",
             "label": "GraphQL",
-            "href": "/muta-docs2/docs/graphql"
+            "href": "/muta-docs2/docs/docs_zh/graphql"
           }
         ]
       },
@@ -120,7 +108,7 @@
           {
             "type": "link",
             "label": "JS-SDK",
-            "href": "/muta-docs2/docs/js_sdk"
+            "href": "/muta-docs2/docs/docs_zh/js_sdk"
           }
         ]
       },
@@ -131,7 +119,7 @@
           {
             "type": "link",
             "label": "FAQ",
-            "href": "/muta-docs2/docs/faq"
+            "href": "/muta-docs2/docs/docs_zh/faq"
           }
         ]
       },
@@ -142,7 +130,7 @@
           {
             "type": "link",
             "label": "贡献代码",
-            "href": "/muta-docs2/docs/contribute"
+            "href": "/muta-docs2/docs/docs_zh/contribute"
           }
         ]
       }
@@ -151,46 +139,122 @@
       {
         "type": "link",
         "label": "Support",
-        "href": "/muta-docs2/docs/support"
+        "href": "/muta-docs2/docs/support/support"
       },
       {
         "type": "link",
         "label": "Team",
-        "href": "/muta-docs2/docs/team"
+        "href": "/muta-docs2/docs/support/team"
       },
       {
         "type": "link",
         "label": "Roadmap",
-        "href": "/muta-docs2/docs/roadmap"
+        "href": "/muta-docs2/docs/support/roadmap"
       },
       {
         "type": "link",
         "label": "Awesome Resources",
-        "href": "/muta-docs2/docs/resources"
+        "href": "/muta-docs2/docs/support/resources"
+      }
+    ],
+    "tutorial": [
+      {
+        "type": "category",
+        "label": "Create Your First Muta Chain",
+        "items": [
+          {
+            "type": "link",
+            "label": "Before We Start the Tutorial",
+            "href": "/muta-docs2/docs/tutorial/first-chain/before-create"
+          },
+          {
+            "type": "link",
+            "label": "Set up your computer",
+            "href": "/muta-docs2/docs/tutorial/first-chain/setup"
+          },
+          {
+            "type": "link",
+            "label": "Compile and Run the Node",
+            "href": "/muta-docs2/docs/tutorial/first-chain/compile-run"
+          },
+          {
+            "type": "link",
+            "label": "Interact with your node",
+            "href": "/muta-docs2/docs/tutorial/first-chain/interact"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "Build a Private Network with Muta",
+        "items": [
+          {
+            "type": "link",
+            "label": "Before We Start the Tutorial",
+            "href": "/muta-docs2/docs/tutorial/private-network/private-before"
+          },
+          {
+            "type": "link",
+            "label": "Generate Keypairs",
+            "href": "/muta-docs2/docs/tutorial/private-network/private-key"
+          },
+          {
+            "type": "link",
+            "label": "Configuration",
+            "href": "/muta-docs2/docs/tutorial/private-network/private-config"
+          },
+          {
+            "type": "link",
+            "label": "Run Your Private Network",
+            "href": "/muta-docs2/docs/tutorial/private-network/private-run"
+          }
+        ]
+      }
+    ],
+    "docs_en": [
+      {
+        "type": "category",
+        "label": "Intro",
+        "items": [
+          {
+            "type": "link",
+            "label": "介绍",
+            "href": "/muta-docs2/docs/docs_en/intro"
+          }
+        ]
       }
     ]
   },
   "permalinkToSidebar": {
-    "/muta-docs2/docs/built_in_service": "docs",
-    "/muta-docs2/docs/config": "docs",
-    "/muta-docs2/docs/contribute": "docs",
-    "/muta-docs2/docs/crypto": "docs",
-    "/muta-docs2/docs/dex": "docs",
-    "/muta-docs2/docs/faq": "docs",
-    "/muta-docs2/docs/getting_started": "docs",
-    "/muta-docs2/docs/graphql": "docs",
-    "/muta-docs2/docs/intro": "docs",
-    "/muta-docs2/docs/js_sdk": "docs",
-    "/muta-docs2/docs/multi_node_deploy": "docs",
-    "/muta-docs2/docs/network": "docs",
-    "/muta-docs2/docs/overlord": "docs",
-    "/muta-docs2/docs/resources": "support",
-    "/muta-docs2/docs/roadmap": "support",
-    "/muta-docs2/docs/service_dev": "docs",
-    "/muta-docs2/docs/service_eg": "docs",
-    "/muta-docs2/docs/storage": "docs",
-    "/muta-docs2/docs/support": "support",
-    "/muta-docs2/docs/team": "support",
-    "/muta-docs2/docs/transaction_pool": "docs"
+    "/muta-docs2/docs/docs_en/intro": "docs_en",
+    "/muta-docs2/docs/docs_zh/concept": "docs",
+    "/muta-docs2/docs/docs_zh/config": "docs",
+    "/muta-docs2/docs/docs_zh/contribute": "docs",
+    "/muta-docs2/docs/docs_zh/crypto": "docs",
+    "/muta-docs2/docs/docs_zh/dev_overview": "docs",
+    "/muta-docs2/docs/docs_zh/dex": "docs",
+    "/muta-docs2/docs/docs_zh/faq": "docs",
+    "/muta-docs2/docs/docs_zh/getting_started": "docs",
+    "/muta-docs2/docs/docs_zh/graphql": "docs",
+    "/muta-docs2/docs/docs_zh/intro": "docs",
+    "/muta-docs2/docs/docs_zh/js_sdk": "docs",
+    "/muta-docs2/docs/docs_zh/multi_node_deploy": "docs",
+    "/muta-docs2/docs/docs_zh/network": "docs",
+    "/muta-docs2/docs/docs_zh/overlord": "docs",
+    "/muta-docs2/docs/docs_zh/service_dev": "docs",
+    "/muta-docs2/docs/docs_zh/storage": "docs",
+    "/muta-docs2/docs/docs_zh/transaction_pool": "docs",
+    "/muta-docs2/docs/support/resources": "support",
+    "/muta-docs2/docs/support/roadmap": "support",
+    "/muta-docs2/docs/support/support": "support",
+    "/muta-docs2/docs/support/team": "support",
+    "/muta-docs2/docs/tutorial/first-chain/before-create": "tutorial",
+    "/muta-docs2/docs/tutorial/first-chain/compile-run": "tutorial",
+    "/muta-docs2/docs/tutorial/first-chain/interact": "tutorial",
+    "/muta-docs2/docs/tutorial/first-chain/setup": "tutorial",
+    "/muta-docs2/docs/tutorial/private-network/private-before": "tutorial",
+    "/muta-docs2/docs/tutorial/private-network/private-config": "tutorial",
+    "/muta-docs2/docs/tutorial/private-network/private-key": "tutorial",
+    "/muta-docs2/docs/tutorial/private-network/private-run": "tutorial"
   }
 }

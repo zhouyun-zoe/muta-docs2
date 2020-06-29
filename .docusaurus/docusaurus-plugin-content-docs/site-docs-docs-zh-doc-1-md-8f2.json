@@ -1,0 +1,9 @@
+{
+  "id": "docs_zh/doc1",
+  "title": "Style Guide",
+  "description": "You can write content using [GitHub-flavored Markdown syntax](https://github.github.com/gfm/).",
+  "source": "@site/docs/docs_zh/doc1.md",
+  "permalink": "/muta-docs2/docs/docs_zh/doc1",
+  "editUrl": "https://github.com/nervosnetwork/muta-docs/docs/docs_zh/doc1.md",
+  "sidebar_label": "Style Guide"
+}

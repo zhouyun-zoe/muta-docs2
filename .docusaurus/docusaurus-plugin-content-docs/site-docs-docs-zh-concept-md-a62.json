@@ -1,0 +1,17 @@
+{
+  "id": "docs_zh/concept",
+  "title": "关键概念",
+  "description": "key concept",
+  "source": "@site/docs/docs_zh/concept.md",
+  "permalink": "/muta-docs2/docs/docs_zh/concept",
+  "editUrl": "https://github.com/nervosnetwork/muta-docs/docs/docs_zh/concept.md",
+  "sidebar": "docs",
+  "previous": {
+    "title": "介绍",
+    "permalink": "/muta-docs2/docs/docs_zh/intro"
+  },
+  "next": {
+    "title": "快速入门",
+    "permalink": "/muta-docs2/docs/docs_zh/getting_started"
+  }
+}

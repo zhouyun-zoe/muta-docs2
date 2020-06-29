@@ -1,0 +1,13 @@
+{
+  "id": "tutorial/private-network/private-run",
+  "title": "Run Your Private Network",
+  "description": "##",
+  "source": "@site/docs/tutorial/private-network/private-run.md",
+  "permalink": "/muta-docs2/docs/tutorial/private-network/private-run",
+  "editUrl": "https://github.com/nervosnetwork/muta-docs/docs/tutorial/private-network/private-run.md",
+  "sidebar": "tutorial",
+  "previous": {
+    "title": "Configuration",
+    "permalink": "/muta-docs2/docs/tutorial/private-network/private-config"
+  }
+}

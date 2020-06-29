@@ -41,12 +41,6 @@ export default [
   
 },
 {
-  path: '/muta-docs2/index1',
-  component: ComponentCreator('/muta-docs2/index1'),
-  exact: true,
-  
-},
-{
   path: '/muta-docs2/showcase/',
   component: ComponentCreator('/muta-docs2/showcase/'),
   exact: true,
@@ -58,158 +52,206 @@ export default [
   
   routes: [
 {
-  path: '/muta-docs2/docs/arch',
-  component: ComponentCreator('/muta-docs2/docs/arch'),
+  path: '/muta-docs2/docs/docs_en/intro',
+  component: ComponentCreator('/muta-docs2/docs/docs_en/intro'),
   exact: true,
   
 },
 {
-  path: '/muta-docs2/docs/built_in_service',
-  component: ComponentCreator('/muta-docs2/docs/built_in_service'),
+  path: '/muta-docs2/docs/docs_zh/arch',
+  component: ComponentCreator('/muta-docs2/docs/docs_zh/arch'),
   exact: true,
   
 },
 {
-  path: '/muta-docs2/docs/config',
-  component: ComponentCreator('/muta-docs2/docs/config'),
+  path: '/muta-docs2/docs/docs_zh/built_in_service',
+  component: ComponentCreator('/muta-docs2/docs/docs_zh/built_in_service'),
   exact: true,
   
 },
 {
-  path: '/muta-docs2/docs/contribute',
-  component: ComponentCreator('/muta-docs2/docs/contribute'),
+  path: '/muta-docs2/docs/docs_zh/concept',
+  component: ComponentCreator('/muta-docs2/docs/docs_zh/concept'),
   exact: true,
   
 },
 {
-  path: '/muta-docs2/docs/crypto',
-  component: ComponentCreator('/muta-docs2/docs/crypto'),
+  path: '/muta-docs2/docs/docs_zh/config',
+  component: ComponentCreator('/muta-docs2/docs/docs_zh/config'),
   exact: true,
   
 },
 {
-  path: '/muta-docs2/docs/dex',
-  component: ComponentCreator('/muta-docs2/docs/dex'),
+  path: '/muta-docs2/docs/docs_zh/contribute',
+  component: ComponentCreator('/muta-docs2/docs/docs_zh/contribute'),
   exact: true,
   
 },
 {
-  path: '/muta-docs2/docs/doc1',
-  component: ComponentCreator('/muta-docs2/docs/doc1'),
+  path: '/muta-docs2/docs/docs_zh/crypto',
+  component: ComponentCreator('/muta-docs2/docs/docs_zh/crypto'),
   exact: true,
   
 },
 {
-  path: '/muta-docs2/docs/doc2',
-  component: ComponentCreator('/muta-docs2/docs/doc2'),
+  path: '/muta-docs2/docs/docs_zh/dev_overview',
+  component: ComponentCreator('/muta-docs2/docs/docs_zh/dev_overview'),
   exact: true,
   
 },
 {
-  path: '/muta-docs2/docs/doc3',
-  component: ComponentCreator('/muta-docs2/docs/doc3'),
+  path: '/muta-docs2/docs/docs_zh/dex',
+  component: ComponentCreator('/muta-docs2/docs/docs_zh/dex'),
   exact: true,
   
 },
 {
-  path: '/muta-docs2/docs/faq',
-  component: ComponentCreator('/muta-docs2/docs/faq'),
+  path: '/muta-docs2/docs/docs_zh/faq',
+  component: ComponentCreator('/muta-docs2/docs/docs_zh/faq'),
   exact: true,
   
 },
 {
-  path: '/muta-docs2/docs/getting_started',
-  component: ComponentCreator('/muta-docs2/docs/getting_started'),
+  path: '/muta-docs2/docs/docs_zh/getting_started',
+  component: ComponentCreator('/muta-docs2/docs/docs_zh/getting_started'),
   exact: true,
   
 },
 {
-  path: '/muta-docs2/docs/graphql',
-  component: ComponentCreator('/muta-docs2/docs/graphql'),
+  path: '/muta-docs2/docs/docs_zh/graphql',
+  component: ComponentCreator('/muta-docs2/docs/docs_zh/graphql'),
   exact: true,
   
 },
 {
-  path: '/muta-docs2/docs/intro',
-  component: ComponentCreator('/muta-docs2/docs/intro'),
+  path: '/muta-docs2/docs/docs_zh/intro',
+  component: ComponentCreator('/muta-docs2/docs/docs_zh/intro'),
   exact: true,
   
 },
 {
-  path: '/muta-docs2/docs/js_sdk',
-  component: ComponentCreator('/muta-docs2/docs/js_sdk'),
+  path: '/muta-docs2/docs/docs_zh/js_sdk',
+  component: ComponentCreator('/muta-docs2/docs/docs_zh/js_sdk'),
   exact: true,
   
 },
 {
-  path: '/muta-docs2/docs/mdx',
-  component: ComponentCreator('/muta-docs2/docs/mdx'),
+  path: '/muta-docs2/docs/docs_zh/mdx',
+  component: ComponentCreator('/muta-docs2/docs/docs_zh/mdx'),
   exact: true,
   
 },
 {
-  path: '/muta-docs2/docs/multi_node_deploy',
-  component: ComponentCreator('/muta-docs2/docs/multi_node_deploy'),
+  path: '/muta-docs2/docs/docs_zh/multi_node_deploy',
+  component: ComponentCreator('/muta-docs2/docs/docs_zh/multi_node_deploy'),
   exact: true,
   
 },
 {
-  path: '/muta-docs2/docs/network',
-  component: ComponentCreator('/muta-docs2/docs/network'),
+  path: '/muta-docs2/docs/docs_zh/network',
+  component: ComponentCreator('/muta-docs2/docs/docs_zh/network'),
   exact: true,
   
 },
 {
-  path: '/muta-docs2/docs/overlord',
-  component: ComponentCreator('/muta-docs2/docs/overlord'),
+  path: '/muta-docs2/docs/docs_zh/overlord',
+  component: ComponentCreator('/muta-docs2/docs/docs_zh/overlord'),
   exact: true,
   
 },
 {
-  path: '/muta-docs2/docs/resources',
-  component: ComponentCreator('/muta-docs2/docs/resources'),
+  path: '/muta-docs2/docs/docs_zh/service_dev',
+  component: ComponentCreator('/muta-docs2/docs/docs_zh/service_dev'),
   exact: true,
   
 },
 {
-  path: '/muta-docs2/docs/roadmap',
-  component: ComponentCreator('/muta-docs2/docs/roadmap'),
+  path: '/muta-docs2/docs/docs_zh/service_eg',
+  component: ComponentCreator('/muta-docs2/docs/docs_zh/service_eg'),
   exact: true,
   
 },
 {
-  path: '/muta-docs2/docs/service_dev',
-  component: ComponentCreator('/muta-docs2/docs/service_dev'),
+  path: '/muta-docs2/docs/docs_zh/storage',
+  component: ComponentCreator('/muta-docs2/docs/docs_zh/storage'),
   exact: true,
   
 },
 {
-  path: '/muta-docs2/docs/service_eg',
-  component: ComponentCreator('/muta-docs2/docs/service_eg'),
+  path: '/muta-docs2/docs/docs_zh/transaction_pool',
+  component: ComponentCreator('/muta-docs2/docs/docs_zh/transaction_pool'),
   exact: true,
   
 },
 {
-  path: '/muta-docs2/docs/storage',
-  component: ComponentCreator('/muta-docs2/docs/storage'),
+  path: '/muta-docs2/docs/support/resources',
+  component: ComponentCreator('/muta-docs2/docs/support/resources'),
   exact: true,
   
 },
 {
-  path: '/muta-docs2/docs/support',
-  component: ComponentCreator('/muta-docs2/docs/support'),
+  path: '/muta-docs2/docs/support/roadmap',
+  component: ComponentCreator('/muta-docs2/docs/support/roadmap'),
   exact: true,
   
 },
 {
-  path: '/muta-docs2/docs/team',
-  component: ComponentCreator('/muta-docs2/docs/team'),
+  path: '/muta-docs2/docs/support/support',
+  component: ComponentCreator('/muta-docs2/docs/support/support'),
   exact: true,
   
 },
 {
-  path: '/muta-docs2/docs/transaction_pool',
-  component: ComponentCreator('/muta-docs2/docs/transaction_pool'),
+  path: '/muta-docs2/docs/support/team',
+  component: ComponentCreator('/muta-docs2/docs/support/team'),
+  exact: true,
+  
+},
+{
+  path: '/muta-docs2/docs/tutorial/first-chain/before-create',
+  component: ComponentCreator('/muta-docs2/docs/tutorial/first-chain/before-create'),
+  exact: true,
+  
+},
+{
+  path: '/muta-docs2/docs/tutorial/first-chain/compile-run',
+  component: ComponentCreator('/muta-docs2/docs/tutorial/first-chain/compile-run'),
+  exact: true,
+  
+},
+{
+  path: '/muta-docs2/docs/tutorial/first-chain/interact',
+  component: ComponentCreator('/muta-docs2/docs/tutorial/first-chain/interact'),
+  exact: true,
+  
+},
+{
+  path: '/muta-docs2/docs/tutorial/first-chain/setup',
+  component: ComponentCreator('/muta-docs2/docs/tutorial/first-chain/setup'),
+  exact: true,
+  
+},
+{
+  path: '/muta-docs2/docs/tutorial/private-network/private-before',
+  component: ComponentCreator('/muta-docs2/docs/tutorial/private-network/private-before'),
+  exact: true,
+  
+},
+{
+  path: '/muta-docs2/docs/tutorial/private-network/private-config',
+  component: ComponentCreator('/muta-docs2/docs/tutorial/private-network/private-config'),
+  exact: true,
+  
+},
+{
+  path: '/muta-docs2/docs/tutorial/private-network/private-key',
+  component: ComponentCreator('/muta-docs2/docs/tutorial/private-network/private-key'),
+  exact: true,
+  
+},
+{
+  path: '/muta-docs2/docs/tutorial/private-network/private-run',
+  component: ComponentCreator('/muta-docs2/docs/tutorial/private-network/private-run'),
   exact: true,
   
 }],

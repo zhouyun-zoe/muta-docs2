@@ -1,0 +1,17 @@
+{
+  "id": "docs_zh/dev_overview",
+  "title": "开发概览",
+  "description": "service development",
+  "source": "@site/docs/docs_zh/dev_overview.md",
+  "permalink": "/muta-docs2/docs/docs_zh/dev_overview",
+  "editUrl": "https://github.com/nervosnetwork/muta-docs/docs/docs_zh/dev_overview.md",
+  "sidebar": "docs",
+  "previous": {
+    "title": "多节点部署指南",
+    "permalink": "/muta-docs2/docs/docs_zh/multi_node_deploy"
+  },
+  "next": {
+    "title": "Service 开发指南",
+    "permalink": "/muta-docs2/docs/docs_zh/service_dev"
+  }
+}

@@ -31,19 +31,35 @@ module.exports = {
       },
       links: [
         {
-          to: 'docs/intro',
+          to: 'docs/docs_zh/intro',
           activeBasePath: 'docs',
           label: 'Docs',
           position: 'left',
         },
+        {to: 'docs/tutorial/first-chain/before-create', label: 'Tutorial', position: 'left'},
         {to: 'blog', label: 'Blog', position: 'left'},
         {to: 'showcase', label: 'Showcase', position: 'left'},
-        {to: 'docs/support', label: 'Support', position: 'left'},
+        {to: 'docs/support/support', label: 'Support', position: 'left'},
         {
           href: 'https://github.com/nervosnetwork/muta',
           label: 'GitHub',
           position: 'right',
         },
+        {
+          label: 'Translation',
+          position: 'right', // or 'right'
+          items: [
+            {
+              label: '中文',
+              to: 'docs/docs_zh/intro',
+            },
+            {
+              label: 'English',
+              to: 'docs/docs_en/intro',
+            },
+            // ... more items
+          ],
+        },       
       ],
     },
     footer: {
@@ -53,12 +69,16 @@ module.exports = {
           title: 'Docs',
           items: [
             {
-              label: 'Style Guide',
-              to: 'docs/doc1',
+              label: 'Getting Started',
+              to: 'docs/getting_started',
             },
             {
-              label: 'Second Doc',
-              to: 'docs/doc2',
+              label: 'Service Development',
+              to: 'docs/service_dev',
+            },
+            {
+              label: 'Dapp Development',
+              to: 'docs/dex',
             },
           ],
         },
@@ -66,16 +86,16 @@ module.exports = {
           title: 'Community',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'Forum',
+              href: 'https://talk.nervos.org/',
             },
             {
               label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              href: 'https://discord.com/invite/rN35fe8',
             },
             {
               label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              href: 'https://twitter.com/nervosnetwork',
             },
           ],
         },
@@ -88,12 +108,12 @@ module.exports = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/nervosnetwork/muta',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Nervos Foundation`,
     },
   },
   presets: [
@@ -101,6 +121,13 @@ module.exports = {
       '@docusaurus/preset-classic',
       {
         docs: {
+          sidebarPath: require.resolve('./sidebars.js'),
+          postsPerPage: 3,
+          // Please change this to your repo.
+          editUrl:
+            'https://github.com/nervosnetwork/muta-docs',
+        },
+        tutorial: {
           sidebarPath: require.resolve('./sidebars.js'),
           postsPerPage: 3,
           // Please change this to your repo.

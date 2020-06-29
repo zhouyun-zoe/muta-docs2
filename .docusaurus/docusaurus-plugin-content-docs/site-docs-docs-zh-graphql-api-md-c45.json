@@ -1,0 +1,17 @@
+{
+  "id": "docs_zh/graphql",
+  "title": "GraphQL",
+  "description": "[graphql](https://raw.githubusercontent.com/nervosnetwork/muta/master/docs/graphql_api.md)",
+  "source": "@site/docs/docs_zh/graphql_api.md",
+  "permalink": "/muta-docs2/docs/docs_zh/graphql",
+  "editUrl": "https://github.com/nervosnetwork/muta-docs/docs/docs_zh/graphql_api.md",
+  "sidebar": "docs",
+  "previous": {
+    "title": "密码学",
+    "permalink": "/muta-docs2/docs/docs_zh/crypto"
+  },
+  "next": {
+    "title": "JS-SDK",
+    "permalink": "/muta-docs2/docs/docs_zh/js_sdk"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "docs_zh/transaction_pool",
+  "title": "Mempool",
+  "description": "## 设计要求",
+  "source": "@site/docs/docs_zh/transaction_pool.md",
+  "permalink": "/muta-docs2/docs/docs_zh/transaction_pool",
+  "editUrl": "https://github.com/nervosnetwork/muta-docs/docs/docs_zh/transaction_pool.md",
+  "sidebar": "docs",
+  "previous": {
+    "title": "Tutorial：使用 Muta 框架从零开发一条 Dex 专有链",
+    "permalink": "/muta-docs2/docs/docs_zh/dex"
+  },
+  "next": {
+    "title": "Overlord 架构设计",
+    "permalink": "/muta-docs2/docs/docs_zh/overlord"
+  }
+}

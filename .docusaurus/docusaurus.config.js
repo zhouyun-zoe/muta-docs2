@@ -24,9 +24,14 @@ export default {
       },
       "links": [
         {
-          "to": "docs/intro",
+          "to": "docs/docs_zh/intro",
           "activeBasePath": "docs",
           "label": "Docs",
+          "position": "left"
+        },
+        {
+          "to": "docs/tutorial/first-chain/before-create",
+          "label": "Tutorial",
           "position": "left"
         },
         {
@@ -40,7 +45,7 @@ export default {
           "position": "left"
         },
         {
-          "to": "docs/support",
+          "to": "docs/support/support",
           "label": "Support",
           "position": "left"
         },
@@ -48,6 +53,20 @@ export default {
           "href": "https://github.com/nervosnetwork/muta",
           "label": "GitHub",
           "position": "right"
+        },
+        {
+          "label": "Translation",
+          "position": "right",
+          "items": [
+            {
+              "label": "中文",
+              "to": "docs/docs_zh/intro"
+            },
+            {
+              "label": "English",
+              "to": "docs/docs_en/intro"
+            }
+          ]
         }
       ]
     },
@@ -58,12 +77,16 @@ export default {
           "title": "Docs",
           "items": [
             {
-              "label": "Style Guide",
-              "to": "docs/doc1"
+              "label": "Getting Started",
+              "to": "docs/getting_started"
             },
             {
-              "label": "Second Doc",
-              "to": "docs/doc2"
+              "label": "Service Development",
+              "to": "docs/service_dev"
+            },
+            {
+              "label": "Dapp Development",
+              "to": "docs/dex"
             }
           ]
         },
@@ -71,16 +94,16 @@ export default {
           "title": "Community",
           "items": [
             {
-              "label": "Stack Overflow",
-              "href": "https://stackoverflow.com/questions/tagged/docusaurus"
+              "label": "Forum",
+              "href": "https://talk.nervos.org/"
             },
             {
               "label": "Discord",
-              "href": "https://discordapp.com/invite/docusaurus"
+              "href": "https://discord.com/invite/rN35fe8"
             },
             {
               "label": "Twitter",
-              "href": "https://twitter.com/docusaurus"
+              "href": "https://twitter.com/nervosnetwork"
             }
           ]
         },
@@ -93,12 +116,12 @@ export default {
             },
             {
               "label": "GitHub",
-              "href": "https://github.com/facebook/docusaurus"
+              "href": "https://github.com/nervosnetwork/muta"
             }
           ]
         }
       ],
-      "copyright": "Copyright © 2020 My Project, Inc. Built with Docusaurus."
+      "copyright": "Copyright © 2020 Nervos Foundation"
     }
   },
   "title": "Muta",
@@ -113,6 +136,11 @@ export default {
       "@docusaurus/preset-classic",
       {
         "docs": {
+          "sidebarPath": "/Users/Yun/Desktop/docs2/muta-docs2/sidebars.js",
+          "postsPerPage": 3,
+          "editUrl": "https://github.com/nervosnetwork/muta-docs"
+        },
+        "tutorial": {
           "sidebarPath": "/Users/Yun/Desktop/docs2/muta-docs2/sidebars.js",
           "postsPerPage": 3,
           "editUrl": "https://github.com/nervosnetwork/muta-docs"

@@ -1,0 +1,9 @@
+{
+  "id": "docs_en/intro",
+  "title": "介绍",
+  "description": "## 什么是 Muta？",
+  "source": "@site/docs/docs_en/intro.md",
+  "permalink": "/muta-docs2/docs/docs_en/intro",
+  "editUrl": "https://github.com/nervosnetwork/muta-docs/docs/docs_en/intro.md",
+  "sidebar": "docs_en"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "tutorial/create-chain",
+  "title": "create-chain",
+  "description": "# Creat Your First Muta Chain",
+  "source": "@site/docs/tutorial/create-chain.md",
+  "permalink": "/muta-docs2/docs/tutorial/create-chain",
+  "editUrl": "https://github.com/nervosnetwork/muta-docs/docs/tutorial/create-chain.md",
+  "sidebar": "tutorial"
+}

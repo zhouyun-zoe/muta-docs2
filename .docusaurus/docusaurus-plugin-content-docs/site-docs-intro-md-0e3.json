@@ -5,9 +5,5 @@
   "source": "@site/docs/intro.md",
   "permalink": "/muta-docs2/docs/intro",
   "editUrl": "https://github.com/nervosnetwork/muta-docs/docs/intro.md",
-  "sidebar": "docs",
-  "next": {
-    "title": "快速入门",
-    "permalink": "/muta-docs2/docs/getting_started"
-  }
+  "sidebar": "docs_en"
 }

@@ -1,0 +1,13 @@
+{
+  "id": "docs_zh/support",
+  "title": "Support",
+  "description": "On this page we've listed some Muta-related communities that you can be a part of; see the other pages in this section for additional online and in-person learning materials.",
+  "source": "@site/docs/docs_zh/support.md",
+  "permalink": "/muta-docs2/docs/docs_zh/support",
+  "editUrl": "https://github.com/nervosnetwork/muta-docs/docs/docs_zh/support.md",
+  "sidebar": "support",
+  "next": {
+    "title": "Team",
+    "permalink": "/muta-docs2/docs/docs_zh/team"
+  }
+}

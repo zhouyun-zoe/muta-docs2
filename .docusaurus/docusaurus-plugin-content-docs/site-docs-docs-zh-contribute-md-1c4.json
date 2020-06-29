@@ -1,0 +1,13 @@
+{
+  "id": "docs_zh/contribute",
+  "title": "贡献代码",
+  "description": "Muta 是完全开源的公链项目，代码在 GitHub 托管，欢迎社区成员以各种方式参与贡献。",
+  "source": "@site/docs/docs_zh/contribute.md",
+  "permalink": "/muta-docs2/docs/docs_zh/contribute",
+  "editUrl": "https://github.com/nervosnetwork/muta-docs/docs/docs_zh/contribute.md",
+  "sidebar": "docs",
+  "previous": {
+    "title": "FAQ",
+    "permalink": "/muta-docs2/docs/docs_zh/faq"
+  }
+}
