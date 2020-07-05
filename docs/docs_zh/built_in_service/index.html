@@ -16,25 +16,25 @@
 <link rel="stylesheet" href="/muta-docs2/styles.e2aa70e3.css">
 
 
-<link rel="preload" href="/muta-docs2/styles.917e3326.js" as="script">
+<link rel="preload" href="/muta-docs2/styles.fc50cfe6.js" as="script">
 
-<link rel="preload" href="/muta-docs2/runtime~main.b119cd94.js" as="script">
+<link rel="preload" href="/muta-docs2/runtime~main.8414658f.js" as="script">
 
-<link rel="preload" href="/muta-docs2/main.ce345691.js" as="script">
+<link rel="preload" href="/muta-docs2/main.f2714471.js" as="script">
 
-<link rel="preload" href="/muta-docs2/1.991d3a80.js" as="script">
+<link rel="preload" href="/muta-docs2/1.0d93587e.js" as="script">
 
-<link rel="preload" href="/muta-docs2/2.93346daa.js" as="script">
+<link rel="preload" href="/muta-docs2/2.83b64329.js" as="script">
 
-<link rel="preload" href="/muta-docs2/3.5acddcf1.js" as="script">
+<link rel="preload" href="/muta-docs2/3.cc3f051f.js" as="script">
 
-<link rel="preload" href="/muta-docs2/1be78505.0a969bfc.js" as="script">
+<link rel="preload" href="/muta-docs2/1be78505.211949cc.js" as="script">
 
-<link rel="preload" href="/muta-docs2/78ab87d2.c282a14f.js" as="script">
+<link rel="preload" href="/muta-docs2/78ab87d2.21a9ebfb.js" as="script">
 
-<link rel="preload" href="/muta-docs2/17896441.a65f949d.js" as="script">
+<link rel="preload" href="/muta-docs2/17896441.84d7f69f.js" as="script">
 
-<link rel="preload" href="/muta-docs2/31539919.4f77d2cf.js" as="script">
+<link rel="preload" href="/muta-docs2/31539919.c1cd6d5c.js" as="script">
 
 </head>
 <body>
@@ -54,25 +54,25 @@
 </span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">// 返回值</span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">pub struct GetAllowanceResponse {</span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">    pub asset_id: Hash,</span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">    pub grantor:  Address,</span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">    pub grantee:  Address,</span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">    pub value:    u64,</span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">}</span></div></div></div></div></div><p>GraphiQL 示例：</p><div class="mdxCodeBlock_iHAB"><div class="codeBlockContent_32p_"><button type="button" aria-label="Copy code to clipboard" class="copyButton_1BYj">Copy</button><div tabindex="0" class="prism-code language-graphql codeBlock_19pQ"><div class="codeBlockLines_2n9r" style="color:#bfc7d5;background-color:#292d3e"><div class="token-line" style="color:#bfc7d5"><span class="token keyword" style="font-style:italic">query</span><span class="token plain"> get_allowance</span><span class="token punctuation" style="color:rgb(199, 146, 234)">{</span><span class="token plain"></span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">  queryService</span><span class="token punctuation" style="color:rgb(199, 146, 234)">(</span><span class="token plain"></span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">  </span><span class="token attr-name" style="color:rgb(255, 203, 107)">caller</span><span class="token punctuation" style="color:rgb(199, 146, 234)">:</span><span class="token plain"> </span><span class="token string" style="color:rgb(195, 232, 141)">&quot;0x016cbd9ee47a255a6f68882918dcdd9e14e6bee1&quot;</span><span class="token plain"></span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">  </span><span class="token attr-name" style="color:rgb(255, 203, 107)">serviceName</span><span class="token punctuation" style="color:rgb(199, 146, 234)">:</span><span class="token plain"> </span><span class="token string" style="color:rgb(195, 232, 141)">&quot;asset&quot;</span><span class="token plain"></span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">  </span><span class="token attr-name" style="color:rgb(255, 203, 107)">method</span><span class="token punctuation" style="color:rgb(199, 146, 234)">:</span><span class="token plain"> </span><span class="token string" style="color:rgb(195, 232, 141)">&quot;get_allowance&quot;</span><span class="token plain"></span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">  </span><span class="token attr-name" style="color:rgb(255, 203, 107)">payload</span><span class="token punctuation" style="color:rgb(199, 146, 234)">:</span><span class="token plain"> </span><span class="token string" style="color:rgb(195, 232, 141)">&quot;{\&quot;asset_id\&quot;: \&quot;0x5f1364a8e6230f68ccc18bc9d1000cedd522d6d63cef06d0062f832bdbe1a78a\&quot;, \&quot;grantor\&quot;: \&quot;0x016cbd9ee47a255a6f68882918dcdd9e14e6bee1\&quot;, \&quot;grantee\&quot;: \&quot;0xf8389d774afdad8755ef8e629e5a154fddc6325a\&quot;}&quot;</span><span class="token plain"></span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">  </span><span class="token punctuation" style="color:rgb(199, 146, 234)">)</span><span class="token punctuation" style="color:rgb(199, 146, 234)">{</span><span class="token plain"></span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">    ret</span><span class="token punctuation" style="color:rgb(199, 146, 234)">,</span><span class="token plain"></span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">    isError</span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">  </span><span class="token punctuation" style="color:rgb(199, 146, 234)">}</span><span class="token plain"></span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain"></span><span class="token punctuation" style="color:rgb(199, 146, 234)">}</span></div></div></div></div></div></div></article><div class="margin-vert--xl"><div class="row"><div class="col"><a href="https://github.com/nervosnetwork/muta-docs/docs/docs_zh/built_in_service.md" target="_blank" rel="noreferrer noopener"><svg fill="currentColor" height="1.2em" width="1.2em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 40 40" style="margin-right:0.3em;vertical-align:sub"><g><path d="m34.5 11.7l-3 3.1-6.3-6.3 3.1-3q0.5-0.5 1.2-0.5t1.1 0.5l3.9 3.9q0.5 0.4 0.5 1.1t-0.5 1.2z m-29.5 17.1l18.4-18.5 6.3 6.3-18.4 18.4h-6.3v-6.2z"></path></g></svg>Edit this page</a></div></div></div><div class="margin-vert--lg"><nav class="pagination-nav"><div class="pagination-nav__item"></div><div class="pagination-nav__item pagination-nav__item--next"></div></nav></div></div></div><div class="col col--3"><div class="tableOfContents_TbNY"><ul class="contents contents__left-border"><li><a href="#概述" class="contents__link">概述</a></li><li><a href="#metadata-service" class="contents__link">Metadata Service</a></li><li><a href="#接口" class="contents__link">接口</a><ul><li><a href="#读取链元数据信息" class="contents__link">读取链元数据信息</a></li></ul></li><li><a href="#asset-service" class="contents__link">Asset Service</a></li><li><a href="#接口-1" class="contents__link">接口</a></li></ul></div></div></div></div></main></div></div><footer class="footer footer--dark"><div class="container"><div class="row footer__links"><div class="col footer__col"><h4 class="footer__title">Docs</h4><ul class="footer__items"><li class="footer__item"><a class="footer__link-item" href="/muta-docs2/docs/getting_started">Getting Started</a></li><li class="footer__item"><a class="footer__link-item" href="/muta-docs2/docs/service_dev">Service Development</a></li><li class="footer__item"><a class="footer__link-item" href="/muta-docs2/docs/dex">Dapp Development</a></li></ul></div><div class="col footer__col"><h4 class="footer__title">Community</h4><ul class="footer__items"><li class="footer__item"><a class="footer__link-item" target="_blank" rel="noopener noreferrer" href="https://talk.nervos.org/">Forum</a></li><li class="footer__item"><a class="footer__link-item" target="_blank" rel="noopener noreferrer" href="https://discord.com/invite/rN35fe8">Discord</a></li><li class="footer__item"><a class="footer__link-item" target="_blank" rel="noopener noreferrer" href="https://twitter.com/nervosnetwork">Twitter</a></li></ul></div><div class="col footer__col"><h4 class="footer__title">More</h4><ul class="footer__items"><li class="footer__item"><a class="footer__link-item" href="/muta-docs2/blog">Blog</a></li><li class="footer__item"><a class="footer__link-item" target="_blank" rel="noopener noreferrer" href="https://github.com/nervosnetwork/muta">GitHub</a></li></ul></div></div><div class="text--center"><div>Copyright © 2020 Nervos Foundation</div></div></div></footer>
 </div>
 
-<script src="/muta-docs2/styles.917e3326.js"></script>
+<script src="/muta-docs2/styles.fc50cfe6.js"></script>
 
-<script src="/muta-docs2/runtime~main.b119cd94.js"></script>
+<script src="/muta-docs2/runtime~main.8414658f.js"></script>
 
-<script src="/muta-docs2/main.ce345691.js"></script>
+<script src="/muta-docs2/main.f2714471.js"></script>
 
-<script src="/muta-docs2/1.991d3a80.js"></script>
+<script src="/muta-docs2/1.0d93587e.js"></script>
 
-<script src="/muta-docs2/2.93346daa.js"></script>
+<script src="/muta-docs2/2.83b64329.js"></script>
 
-<script src="/muta-docs2/3.5acddcf1.js"></script>
+<script src="/muta-docs2/3.cc3f051f.js"></script>
 
-<script src="/muta-docs2/1be78505.0a969bfc.js"></script>
+<script src="/muta-docs2/1be78505.211949cc.js"></script>
 
-<script src="/muta-docs2/78ab87d2.c282a14f.js"></script>
+<script src="/muta-docs2/78ab87d2.21a9ebfb.js"></script>
 
-<script src="/muta-docs2/17896441.a65f949d.js"></script>
+<script src="/muta-docs2/17896441.84d7f69f.js"></script>
 
-<script src="/muta-docs2/31539919.4f77d2cf.js"></script>
+<script src="/muta-docs2/31539919.c1cd6d5c.js"></script>
 
 
 </body>

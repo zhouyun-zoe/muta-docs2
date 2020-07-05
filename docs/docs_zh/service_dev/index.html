@@ -16,25 +16,25 @@
 <link rel="stylesheet" href="/muta-docs2/styles.e2aa70e3.css">
 
 
-<link rel="preload" href="/muta-docs2/styles.917e3326.js" as="script">
+<link rel="preload" href="/muta-docs2/styles.fc50cfe6.js" as="script">
 
-<link rel="preload" href="/muta-docs2/runtime~main.b119cd94.js" as="script">
+<link rel="preload" href="/muta-docs2/runtime~main.8414658f.js" as="script">
 
-<link rel="preload" href="/muta-docs2/main.ce345691.js" as="script">
+<link rel="preload" href="/muta-docs2/main.f2714471.js" as="script">
 
-<link rel="preload" href="/muta-docs2/1.991d3a80.js" as="script">
+<link rel="preload" href="/muta-docs2/1.0d93587e.js" as="script">
 
-<link rel="preload" href="/muta-docs2/2.93346daa.js" as="script">
+<link rel="preload" href="/muta-docs2/2.83b64329.js" as="script">
 
-<link rel="preload" href="/muta-docs2/3.5acddcf1.js" as="script">
+<link rel="preload" href="/muta-docs2/3.cc3f051f.js" as="script">
 
-<link rel="preload" href="/muta-docs2/1be78505.0a969bfc.js" as="script">
+<link rel="preload" href="/muta-docs2/1be78505.211949cc.js" as="script">
 
-<link rel="preload" href="/muta-docs2/78ab87d2.c282a14f.js" as="script">
+<link rel="preload" href="/muta-docs2/78ab87d2.21a9ebfb.js" as="script">
 
-<link rel="preload" href="/muta-docs2/17896441.a65f949d.js" as="script">
+<link rel="preload" href="/muta-docs2/17896441.84d7f69f.js" as="script">
 
-<link rel="preload" href="/muta-docs2/ba2241a0.f0dbcbdb.js" as="script">
+<link rel="preload" href="/muta-docs2/ba2241a0.e38395d1.js" as="script">
 
 </head>
 <body>
@@ -82,25 +82,25 @@
 </span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">... ...</span></div></div></div></div></div><h2><a aria-hidden="true" tabindex="-1" class="anchor" id="service-示例"></a><a aria-hidden="true" tabindex="-1" class="hash-link" href="#service-示例" title="Direct link to heading">#</a>Service 示例</h2><p>这里有一个功能类似 ERC-20 的 <a href="https://github.com/nervosnetwork/muta/tree/master/built-in-services/asset">Asset Service 示例</a>，读者可以查看一个 Service 的全貌。更多的 Service 示例，请参考 <a href="/muta-docs2/docs/docs_zh/service_eg">Service 示例</a>。</p><h2><a aria-hidden="true" tabindex="-1" class="anchor" id="下一站"></a><a aria-hidden="true" tabindex="-1" class="hash-link" href="#下一站" title="Direct link to heading">#</a>下一站</h2><p>现在你已经对 Service 的组件和开发有了一定的认识，下一步通过学习 <a href="/muta-docs2/docs/docs_zh/dex">开发一条 Dex 专有链</a> ，你将对 Service 有一个更全面的理解并且学会如何使用 Muta 框架开发自己的区块链。</p><blockquote><p>注意：由于框架正在持续的开发过程中，所以框架的 api 有可能发生变动</p></blockquote></div></article><div class="margin-vert--xl"><div class="row"><div class="col"><a href="https://github.com/nervosnetwork/muta-docs/docs/docs_zh/service_dev.md" target="_blank" rel="noreferrer noopener"><svg fill="currentColor" height="1.2em" width="1.2em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 40 40" style="margin-right:0.3em;vertical-align:sub"><g><path d="m34.5 11.7l-3 3.1-6.3-6.3 3.1-3q0.5-0.5 1.2-0.5t1.1 0.5l3.9 3.9q0.5 0.4 0.5 1.1t-0.5 1.2z m-29.5 17.1l18.4-18.5 6.3 6.3-18.4 18.4h-6.3v-6.2z"></path></g></svg>Edit this page</a></div></div></div><div class="margin-vert--lg"><nav class="pagination-nav"><div class="pagination-nav__item"><a class="pagination-nav__link" href="/muta-docs2/docs/docs_zh/dev_overview"><div class="pagination-nav__link--sublabel">Previous</div><div class="pagination-nav__link--label">« 开发概览</div></a></div><div class="pagination-nav__item pagination-nav__item--next"><a class="pagination-nav__link" href="/muta-docs2/docs/docs_zh/dex"><div class="pagination-nav__link--sublabel">Next</div><div class="pagination-nav__link--label">Tutorial：使用 Muta 框架从零开发一条 Dex 专有链 »</div></a></div></nav></div></div></div><div class="col col--3"><div class="tableOfContents_TbNY"><ul class="contents contents__left-border"><li><a href="#概念" class="contents__link">概念</a></li><li><a href="#开发范式" class="contents__link">开发范式</a></li><li><a href="#状态存储" class="contents__link">状态存储</a></li><li><a href="#接口方法" class="contents__link">接口方法</a></li><li><a href="#返回值和错误处理" class="contents__link">返回值和错误处理</a></li><li><a href="#创世配置" class="contents__link">创世配置</a></li><li><a href="#资源消耗统计：cycle" class="contents__link">资源消耗统计：cycle</a></li><li><a href="#事件" class="contents__link">事件</a></li><li><a href="#servicecontext-中的其他方法" class="contents__link">ServiceContext 中的其他方法</a></li><li><a href="#service-调用" class="contents__link">Service 调用</a></li><li><a href="#hook" class="contents__link">Hook</a></li><li><a href="#序列化" class="contents__link">序列化</a><ul><li><a href="#json" class="contents__link">Json</a></li><li><a href="#rlp" class="contents__link">RLP</a></li></ul></li><li><a href="#构造方法" class="contents__link">构造方法</a></li><li><a href="#service-示例" class="contents__link">Service 示例</a></li><li><a href="#下一站" class="contents__link">下一站</a></li></ul></div></div></div></div></main></div></div><footer class="footer footer--dark"><div class="container"><div class="row footer__links"><div class="col footer__col"><h4 class="footer__title">Docs</h4><ul class="footer__items"><li class="footer__item"><a class="footer__link-item" href="/muta-docs2/docs/getting_started">Getting Started</a></li><li class="footer__item"><a class="footer__link-item" href="/muta-docs2/docs/service_dev">Service Development</a></li><li class="footer__item"><a class="footer__link-item" href="/muta-docs2/docs/dex">Dapp Development</a></li></ul></div><div class="col footer__col"><h4 class="footer__title">Community</h4><ul class="footer__items"><li class="footer__item"><a class="footer__link-item" target="_blank" rel="noopener noreferrer" href="https://talk.nervos.org/">Forum</a></li><li class="footer__item"><a class="footer__link-item" target="_blank" rel="noopener noreferrer" href="https://discord.com/invite/rN35fe8">Discord</a></li><li class="footer__item"><a class="footer__link-item" target="_blank" rel="noopener noreferrer" href="https://twitter.com/nervosnetwork">Twitter</a></li></ul></div><div class="col footer__col"><h4 class="footer__title">More</h4><ul class="footer__items"><li class="footer__item"><a class="footer__link-item" href="/muta-docs2/blog">Blog</a></li><li class="footer__item"><a class="footer__link-item" target="_blank" rel="noopener noreferrer" href="https://github.com/nervosnetwork/muta">GitHub</a></li></ul></div></div><div class="text--center"><div>Copyright © 2020 Nervos Foundation</div></div></div></footer>
 </div>
 
-<script src="/muta-docs2/styles.917e3326.js"></script>
+<script src="/muta-docs2/styles.fc50cfe6.js"></script>
 
-<script src="/muta-docs2/runtime~main.b119cd94.js"></script>
+<script src="/muta-docs2/runtime~main.8414658f.js"></script>
 
-<script src="/muta-docs2/main.ce345691.js"></script>
+<script src="/muta-docs2/main.f2714471.js"></script>
 
-<script src="/muta-docs2/1.991d3a80.js"></script>
+<script src="/muta-docs2/1.0d93587e.js"></script>
 
-<script src="/muta-docs2/2.93346daa.js"></script>
+<script src="/muta-docs2/2.83b64329.js"></script>
 
-<script src="/muta-docs2/3.5acddcf1.js"></script>
+<script src="/muta-docs2/3.cc3f051f.js"></script>
 
-<script src="/muta-docs2/1be78505.0a969bfc.js"></script>
+<script src="/muta-docs2/1be78505.211949cc.js"></script>
 
-<script src="/muta-docs2/78ab87d2.c282a14f.js"></script>
+<script src="/muta-docs2/78ab87d2.21a9ebfb.js"></script>
 
-<script src="/muta-docs2/17896441.a65f949d.js"></script>
+<script src="/muta-docs2/17896441.84d7f69f.js"></script>
 
-<script src="/muta-docs2/ba2241a0.f0dbcbdb.js"></script>
+<script src="/muta-docs2/ba2241a0.e38395d1.js"></script>
 
 
 </body>

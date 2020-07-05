@@ -16,25 +16,25 @@
 <link rel="stylesheet" href="/muta-docs2/styles.e2aa70e3.css">
 
 
-<link rel="preload" href="/muta-docs2/styles.917e3326.js" as="script">
+<link rel="preload" href="/muta-docs2/styles.fc50cfe6.js" as="script">
 
-<link rel="preload" href="/muta-docs2/runtime~main.b119cd94.js" as="script">
+<link rel="preload" href="/muta-docs2/runtime~main.8414658f.js" as="script">
 
-<link rel="preload" href="/muta-docs2/main.ce345691.js" as="script">
+<link rel="preload" href="/muta-docs2/main.f2714471.js" as="script">
 
-<link rel="preload" href="/muta-docs2/1.991d3a80.js" as="script">
+<link rel="preload" href="/muta-docs2/1.0d93587e.js" as="script">
 
-<link rel="preload" href="/muta-docs2/2.93346daa.js" as="script">
+<link rel="preload" href="/muta-docs2/2.83b64329.js" as="script">
 
-<link rel="preload" href="/muta-docs2/3.5acddcf1.js" as="script">
+<link rel="preload" href="/muta-docs2/3.cc3f051f.js" as="script">
 
-<link rel="preload" href="/muta-docs2/1be78505.0a969bfc.js" as="script">
+<link rel="preload" href="/muta-docs2/1be78505.211949cc.js" as="script">
 
-<link rel="preload" href="/muta-docs2/78ab87d2.c282a14f.js" as="script">
+<link rel="preload" href="/muta-docs2/78ab87d2.21a9ebfb.js" as="script">
 
-<link rel="preload" href="/muta-docs2/17896441.a65f949d.js" as="script">
+<link rel="preload" href="/muta-docs2/17896441.84d7f69f.js" as="script">
 
-<link rel="preload" href="/muta-docs2/6845d994.294dd3ef.js" as="script">
+<link rel="preload" href="/muta-docs2/6845d994.1922f032.js" as="script">
 
 </head>
 <body>
@@ -56,25 +56,25 @@ Codec 序列化接口，完成对数据的存储操作。大体操作可以分�
 </span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">    async fn batch_modify&lt;S: StorageSchema&gt;(</span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">        &amp;self,</span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">        keys: Vec&lt;&lt;S as StorageSchema&gt;::Key&gt;,</span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">        vals: Vec&lt;StorageBatchModify&lt;S&gt;&gt;,</span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">    ) -&gt; ProtocolResult&lt;()&gt;;</span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">}</span></div></div></div></div></div><p>Adapter 通过 Schema 和 Protocol Codec， 直接对应表的数据结构进行序列化和反序列化操作。Storage 层无需关心序列化和反序列操作，拿到的直接就是对应的数据结构。</p><p>使用 Stream 实现异步原生的遍历，批量读取操作。</p><p>BatchModify 则将插入和删除进行了整合，接口稍简洁干净一些。</p></div></article><div class="margin-vert--xl"><div class="row"><div class="col"><a href="https://github.com/nervosnetwork/muta-docs/docs/docs_zh/storage.md" target="_blank" rel="noreferrer noopener"><svg fill="currentColor" height="1.2em" width="1.2em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 40 40" style="margin-right:0.3em;vertical-align:sub"><g><path d="m34.5 11.7l-3 3.1-6.3-6.3 3.1-3q0.5-0.5 1.2-0.5t1.1 0.5l3.9 3.9q0.5 0.4 0.5 1.1t-0.5 1.2z m-29.5 17.1l18.4-18.5 6.3 6.3-18.4 18.4h-6.3v-6.2z"></path></g></svg>Edit this page</a></div></div></div><div class="margin-vert--lg"><nav class="pagination-nav"><div class="pagination-nav__item"><a class="pagination-nav__link" href="/muta-docs2/docs/docs_zh/network"><div class="pagination-nav__link--sublabel">Previous</div><div class="pagination-nav__link--label">« 网络设计</div></a></div><div class="pagination-nav__item pagination-nav__item--next"><a class="pagination-nav__link" href="/muta-docs2/docs/docs_zh/crypto"><div class="pagination-nav__link--sublabel">Next</div><div class="pagination-nav__link--label">密码学 »</div></a></div></nav></div></div></div><div class="col col--3"><div class="tableOfContents_TbNY"><ul class="contents contents__left-border"><li><a href="#目标" class="contents__link">目标</a></li><li><a href="#设计" class="contents__link">设计</a></li><li><a href="#接口" class="contents__link">接口</a><ul><li><a href="#storage" class="contents__link">Storage</a></li><li><a href="#adapter" class="contents__link">Adapter</a></li></ul></li></ul></div></div></div></div></main></div></div><footer class="footer footer--dark"><div class="container"><div class="row footer__links"><div class="col footer__col"><h4 class="footer__title">Docs</h4><ul class="footer__items"><li class="footer__item"><a class="footer__link-item" href="/muta-docs2/docs/getting_started">Getting Started</a></li><li class="footer__item"><a class="footer__link-item" href="/muta-docs2/docs/service_dev">Service Development</a></li><li class="footer__item"><a class="footer__link-item" href="/muta-docs2/docs/dex">Dapp Development</a></li></ul></div><div class="col footer__col"><h4 class="footer__title">Community</h4><ul class="footer__items"><li class="footer__item"><a class="footer__link-item" target="_blank" rel="noopener noreferrer" href="https://talk.nervos.org/">Forum</a></li><li class="footer__item"><a class="footer__link-item" target="_blank" rel="noopener noreferrer" href="https://discord.com/invite/rN35fe8">Discord</a></li><li class="footer__item"><a class="footer__link-item" target="_blank" rel="noopener noreferrer" href="https://twitter.com/nervosnetwork">Twitter</a></li></ul></div><div class="col footer__col"><h4 class="footer__title">More</h4><ul class="footer__items"><li class="footer__item"><a class="footer__link-item" href="/muta-docs2/blog">Blog</a></li><li class="footer__item"><a class="footer__link-item" target="_blank" rel="noopener noreferrer" href="https://github.com/nervosnetwork/muta">GitHub</a></li></ul></div></div><div class="text--center"><div>Copyright © 2020 Nervos Foundation</div></div></div></footer>
 </div>
 
-<script src="/muta-docs2/styles.917e3326.js"></script>
+<script src="/muta-docs2/styles.fc50cfe6.js"></script>
 
-<script src="/muta-docs2/runtime~main.b119cd94.js"></script>
+<script src="/muta-docs2/runtime~main.8414658f.js"></script>
 
-<script src="/muta-docs2/main.ce345691.js"></script>
+<script src="/muta-docs2/main.f2714471.js"></script>
 
-<script src="/muta-docs2/1.991d3a80.js"></script>
+<script src="/muta-docs2/1.0d93587e.js"></script>
 
-<script src="/muta-docs2/2.93346daa.js"></script>
+<script src="/muta-docs2/2.83b64329.js"></script>
 
-<script src="/muta-docs2/3.5acddcf1.js"></script>
+<script src="/muta-docs2/3.cc3f051f.js"></script>
 
-<script src="/muta-docs2/1be78505.0a969bfc.js"></script>
+<script src="/muta-docs2/1be78505.211949cc.js"></script>
 
-<script src="/muta-docs2/78ab87d2.c282a14f.js"></script>
+<script src="/muta-docs2/78ab87d2.21a9ebfb.js"></script>
 
-<script src="/muta-docs2/17896441.a65f949d.js"></script>
+<script src="/muta-docs2/17896441.84d7f69f.js"></script>
 
-<script src="/muta-docs2/6845d994.294dd3ef.js"></script>
+<script src="/muta-docs2/6845d994.1922f032.js"></script>
 
 
 </body>

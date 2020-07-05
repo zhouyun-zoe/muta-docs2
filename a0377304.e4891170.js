@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[33],{170:function(s){s.exports=JSON.parse('{"allTagsPath":"/muta-docs2/blog/tags","slug":"consensus","name":"consensus","count":1,"permalink":"/muta-docs2/blog/tags/consensus"}')}}]);
